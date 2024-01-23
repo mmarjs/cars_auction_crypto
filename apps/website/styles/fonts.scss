@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Goldman';
+  font-style: normal;
+  src: local('Goldman-Regular'), url('./fonts/Goldman-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Goldman';
+  font-style: bold;
+  src: local('Goldman-Bold'), url('./fonts/Goldman-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarDreams';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CaviarDreams'), url('./fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarDreams';
+  font-style: normal;
+  font-weight: bold;
+  src: local('CaviarDreams-Bold'), url('./fonts/CaviarDreams-Bold.ttf') format('truetype');
+}
+
+$font_goldman: Goldman;
+$font_caviar_dreams: CaviarDreams;
+
+:root {
+  --font-goldman: #{$font_goldman};
+  --font-caviar-dreams: #{$font_caviar_dreams};
+}
